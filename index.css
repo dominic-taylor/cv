@@ -32,6 +32,6 @@ h1 {
   border-color: transparent transparent transparent #007bff;
 }
 #summary{display: block; }
-#projects{display: block;}
-#education{display: block;}
-#work{display: block;}
+#projects{display: none;}
+#education{display: none;}
+#work{display: none;}
