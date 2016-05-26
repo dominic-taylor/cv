@@ -1,7 +1,7 @@
 function changeContent() { // refactor
   var current = document.getElementsByClassName('content')
 
-  if( current[0].style.display == 'block') {
+  if(current[0].style.display == 'block') {
     current[0].style.display = 'none'
     current[1].style.display = 'block'
   }
@@ -39,7 +39,7 @@ function selectContent(){
  if(selected=='work'){
    current[3].style.display = 'block'
  }
- 
+
 }
 
 var arrow = document.getElementById('arrow')
