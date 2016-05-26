@@ -1,4 +1,4 @@
-function changeContent() {
+function changeContent() { // refactor
   var current = document.getElementsByClassName('content')
 
   if( current[0].style.display == 'block') {
@@ -18,6 +18,15 @@ function changeContent() {
     current[0].style.display = 'block'
   }
 }
+//
+// function selectContent(){
+//  select option from drop dropdown-content
+//  make current content none
+//  make selected content visible 
+//}
 
 var arrow = document.getElementById('arrow')
 arrow.addEventListener('click', changeContent, false)
+
+// var menu = document.getElementById('nav')
+// menu.addEventListener('click', selectContent, false)
