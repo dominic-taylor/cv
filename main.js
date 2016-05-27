@@ -27,19 +27,10 @@ function selectContent(){
  current[2].style.display = 'none'
  current[3].style.display = 'none'
 
- if(selected=='summary'){
-   current[0].style.display = 'block'
- }
- if(selected=='projects'){
-   current[1].style.display = 'block'
- }
- if(selected=='education'){
-   current[2].style.display = 'block'
- }
- if(selected=='work'){
-   current[3].style.display = 'block'
- }
-
+ if(selected=='summary')}   current[0].style.display = 'block' }
+ if(selected=='projects')}   current[1].style.display = 'block' }
+ if(selected=='education'){   current[2].style.display = 'block'}
+ if(selected=='work')} current[3].style.display = 'block'}
 }
 
 var arrow = document.getElementById('arrow')
